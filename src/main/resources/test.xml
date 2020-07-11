@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/beans">
+
+    <bean name="konnichiha" class="com.huang.pojo.Konnichiha">
+        <property name="text" value="こんにちは！"/>
+    </bean>
+
+    <bean name="student" class="com.huang.pojo.Student">
+        <property name="ID" value="1"/>
+        <property name="name" value="小柳"/>
+        <property name="sex" value="男の子"/>
+    </bean>
+
+</beans>
